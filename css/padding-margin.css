@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    background-color: blue;
+    color: aliceblue;
+    width: 100px;
+    padding: 25px 50px 25px 50px;
+    margin: 0;
+}
+
+#one {
+    background-color: aqua;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 15px 30px 15px 30px;
+}
+
+#two {
+    background-color: antiquewhite;
+    border-color: blue;
+    border-width: 3px;
+    border-style: dashed;
+    border-left-width: 8px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+#three {
+    background-color: aquamarine;
+    border: 2px solid green;
+    border-left-width: 6px;
+}

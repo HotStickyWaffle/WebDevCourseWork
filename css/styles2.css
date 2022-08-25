@@ -1,0 +1,49 @@
+span {
+    background-color: rgb(132, 132, 244);
+    border: 2px solid black;
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h3 {
+    background-color: rgb(132, 132, 244);
+    border: 2px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+}
+
+div {
+    height: 70%;
+    width: 20%;
+    background-color: aquamarine;
+}
+
+section {
+    background-color: bisque;
+    width: 800px;
+    height: 800px;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+article {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 1.5em;
+}

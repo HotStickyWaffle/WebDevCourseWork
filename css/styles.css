@@ -1,0 +1,18 @@
+h1 {
+    color: #000aff;
+    background-color: rgb(89, 151, 0);
+}
+
+button {
+    color: magenta;
+    background-color: slateblue;
+}
+
+p {
+    color: olive;
+    background-color: brown;
+}
+
+body {
+    background-color: #020202;
+}
