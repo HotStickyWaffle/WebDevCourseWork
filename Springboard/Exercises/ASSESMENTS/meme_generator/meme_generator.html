@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="meme_generator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section id="title">
+            <h1 class="titleHeader" id="header1">THE BEST MEME GENERATOR EVER</h1>
+            <h2 class="titleHeader" id="header2">it's totally not just another meme generator</h2>
+            <h3 class="titleHeader" id="header3">Fill out your form and get memeing!</h3>
+        </section>
+        <form>
+            <div class="inputDiv">
+                <label for="url">Image Link:</label>
+                <input class="input" type="url" name="url" id="imageUrl"
+                    placeholder="Add the URL of the image you want to meme">
+            </div>
+            <div class="inputDiv">
+                <label for="topText">Top Text:</label>
+                <input class="input" type="text" name="topText" id="topText"
+                    placeholder="(Optional) What's your top text?">
+            </div>
+            <div class="inputDiv">
+                <label for="bottomText">Bottom Text:</label>
+                <input class="input" type="text" name="bottomText" id="bottomText"
+                    placeholder="(Optional) What's you bottom text?">
+            </div>
+            <div>
+                <input id="submitButton" type="submit" value="Create Your Meme!">
+            </div>
+        </form>
+    </header>
+    <hr>
+
+    <div id="collage">
+    </div>
+
+    <script src="meme_generator.js"></script>
+</body>
+
+</html>

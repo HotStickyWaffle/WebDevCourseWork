@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+H1 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20vw;
+    font-weight: 100;
+}
+
+.letter {
+    color: white;
+    transition-duration: 1000ms;
+}
